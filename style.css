@@ -1,0 +1,70 @@
+
+  html{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    width:100vw;
+    background:#0C2428;
+  }
+
+  .display{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  #center_squre{
+    width: 100px;
+    height: 100px;
+    background: #D9D9D9;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50% , -50%);
+  }
+  #first_squre{
+    width: 50px;
+    height: 50px;
+    background: #D9D9D9;
+    position:absolute;
+    top:25vh;
+    right:56.2vw;
+  }
+  #second_squre{
+    width: 50px;
+    height: 50px;
+    background: #D9D9D9;
+    position:absolute;
+    top:25vh;
+    right:31.2vw;
+  }
+  #third_squre{
+    width: 50px;
+    height: 50px;
+    background: #D9D9D9;
+    position:absolute;
+    top:58.4vh;
+    right:56.2vw;
+  }
+  #fourth_squre{
+    width: 50px;
+    height: 50px;
+    background: #D9D9D9;
+    position:absolute;
+    top:58.2vh;
+    right:31.2vw;
+  }
+
+  #center_circle{
+    width: 40px;
+    height: 40px;
+    background: #0C2428;
+    border-radius:50%;
+  }
+
+  .small_circle{
+    width: 20px;
+    height: 20px;
+    background: #0C2428;
+    border-radius:50%;
+  }
